@@ -1,7 +1,9 @@
 import React from "react";
-import { Button, Accordion, Card, Container, Row, Col, Image,
-    Input } from 'react-bootstrap';
+import ReactBootstrap from 'react-bootstrap'
 import axios from "axios";
+import List from "./List";
+import { Button, Accordion, Card, Container, Row, Col, Image,
+  Input } from 'react-bootstrap';
 
 
 // sumulate getting products from DataBase
@@ -207,4 +209,4 @@ const products = [
       </Container>
     );
   };
-export default Products;
+export default ( Products, 'react-bootstrap');
